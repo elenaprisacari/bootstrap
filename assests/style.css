@@ -1728,11 +1728,6 @@ margin-left: 20px;
     background-color: rgba(18, 32, 29, 0.658);
     border-radius: 2px;
 }
-.ads{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: repeat (5, 1fr);
-}
 .image51{
     grid-column-start: 1;
     grid-row-start: 1;
@@ -1860,4 +1855,10 @@ margin-left: 20px;
     margin-left: 50px;
     margin-bottom: 20px;
     width: 400px;
+}
+
+.carousel-inner{
+    width: 50%;
+    height: 600px;
+   margin-left: 350px;
 }
